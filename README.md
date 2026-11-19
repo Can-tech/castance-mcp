@@ -126,7 +126,9 @@ Create an API key in Castance (choose **Posts need approval** or **Read only** f
 | `withdraw_approval` | Withdraw a pending proposed post |
 | `update_post` / `delete_post` | Edit or delete a draft or scheduled post (full access) |
 | `connect_account` | Generate a browser link for the user to connect another social account |
-| `search_api` / `call_api` | Discover and call any of Castance's 790+ REST API operations (comments, DMs, insights, ads, webhooks) |
+| `search_api` | Discover any of Castance's 790+ REST API operations by keyword |
+| `read_api` | Call any read-only (`GET`) Castance REST operation (comments, DMs, insights, ads, webhooks) |
+| `write_api` | Send any `POST`, `PUT`, `PATCH`, or `DELETE` Castance REST operation (full access) |
 
 ## Links & Support
 
