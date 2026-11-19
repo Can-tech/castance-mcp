@@ -1,0 +1,10 @@
+{
+  "name": "castance",
+  "version": "1.0.1",
+  "description": "Post, schedule and measure on 12 social networks, with approval before anything goes live.",
+  "mcpServers": {
+    "castance": {
+      "httpUrl": "https://castance.com/mcp"
+    }
+  }
+}

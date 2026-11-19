@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.castance/castance",
+  "title": "Castance",
+  "description": "Post, schedule and measure on 12 social networks, with approval before anything goes live.",
+  "version": "1.0.1",
+  "websiteUrl": "https://castance.com/ai-agents",
+  "icons": [
+    {
+      "src": "https://castance.com/logo-mark.png",
+      "mimeType": "image/png",
+      "sizes": ["511x511"]
+    },
+    {
+      "src": "https://castance.com/logo-mark.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Can-tech/castance-mcp",
+    "source": "github",
+    "id": "1464592662"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://castance.com/mcp"
+    }
+  ]
+}
